@@ -1,0 +1,43 @@
+/* Pré Formatação */
+body{
+    margin: 0;
+    font: 1em normal 'Amiri', serif;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* Cabeçalho */
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(190, 223, 238, 0.5);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.menu_navegacao ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_navegacao ul li{
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.menu_navegacao ul li:hover{
+    text-decoration: underline;
+    color: #F8C0FF;
+}
