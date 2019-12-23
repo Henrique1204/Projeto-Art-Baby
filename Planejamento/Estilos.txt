@@ -1,0 +1,18 @@
+---------- CORES --------
+
+#A0C2EB - azul claro
+#F8C0FF - rosa claro
+#5AC4FF - azul forte
+#E755F0 - rosa forte
+#BEDFEE 50%- fundo alternativo
+#1C1924 - preto título
+#000 - textos
+
+---------- FONTES ----------
+Títulos:
+Link: <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+CSS: font-family: 'Righteous', cursive;
+
+Texto:
+link: <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+CSS: font-family: 'Amiri', serif;
