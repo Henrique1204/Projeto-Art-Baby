@@ -347,3 +347,65 @@ header{
     width: 180px;
     height: 160px;
 }
+
+/* Footer */
+
+footer{
+    max-width: 100vw;
+    background-color: rgba(190, 223, 238, 0.5);
+}
+
+footer .container{
+    height: 200px;
+}
+
+footer .container>div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer h3{
+    margin: 30px 0 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer li{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.links_sociais{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer>div:nth-child(2){
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+footer>div:nth-child(2) p{
+    font-weight: bold;
+}
+
+.texto_rosa{
+    color: #E755F0;
+}
+
+.texto_azul{
+    color: #5AC4FF;
+}
