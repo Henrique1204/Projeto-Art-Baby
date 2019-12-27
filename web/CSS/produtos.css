@@ -48,11 +48,11 @@
 }
 
 .pedido form{
-    height: 430px;
+    height: 540px;
 }
 
 .dados_pedidos{
-    height: 100%;
+    height: 430px;
     background: linear-gradient(135deg, #E755F0, #E755F0, #5AC4FF, #5AC4FF);
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@
 }
 
 .produto_pedido{
-    height: 100%;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,4 +125,9 @@
     width: 20px;
     height: 20px;
     margin: 0 10px;
+}
+
+.pedido form .btn{
+    padding-bottom: 10px;
+    border: none;
 }
