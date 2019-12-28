@@ -1,0 +1,40 @@
+.dados_contato{
+    height: 330px;
+    background-color: rgba(190, 223, 238, 0.5);
+}
+
+.dados_contato .container>div{
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dados_contato h3{
+    margin: 30px 0 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.dados_contato ul li{
+    width: 280px;
+    height: 40px;
+    padding: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F8C0FF;
+}
+
+.dados_contato ul li:nth-child(odd){
+    color: #fff;
+	background-color: #A0C2EB;
+}
+
+.enviar_mensagem{
+    max-width: 100vw;
+    height: 890px;
+}

@@ -67,6 +67,11 @@ a{
     color: inherit;
 }
 
+.ativo{
+    text-decoration: underline;
+    color: #F8C0FF;
+}
+
 /* INICIO HOME */
 
 /* Cabeçalho */
@@ -409,4 +414,17 @@ footer>div:nth-child(2) p{
 
 .texto_azul{
     color: #5AC4FF;
+}
+
+/* Introdução Páginas externas */
+
+.introducao{
+    max-width: 100vw;
+    height: 130px;
+    margin-top: 80px;
+    color: #ffffff;
+    background-color: #E755F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

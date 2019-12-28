@@ -1,16 +1,3 @@
-/* Introdução Páginas externas */
-
-.introducao{
-    max-width: 100vw;
-    height: 130px;
-    margin-top: 80px;
-    color: #ffffff;
-    background-color: #E755F0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Portfólio Produtos */
 
 .produtos_produtos{
