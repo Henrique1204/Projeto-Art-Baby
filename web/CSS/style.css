@@ -73,6 +73,7 @@ a{
 }
 
 .ativo{
+    font-size: 1.2em;
     text-decoration: underline;
     color: #F8C0FF;
 }
