@@ -58,6 +58,11 @@ body{
     display: block;
 }
 
+form .btn{
+    padding-bottom: 10px;
+    border: none;
+}
+
 .rosa{
     background-color: #E755F0;
 }
