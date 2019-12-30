@@ -1,0 +1,60 @@
+@media  only screen and (max-width: 979px){
+    
+    /* Texto Geral */
+    
+    p, li, a{
+        font-size: 1em!important;
+    }
+
+    .titulo{
+        font-size: 1.4em;
+    }
+
+    .sub_titulo{
+        font-size: 1.2em;
+    }
+
+    body * h3{
+        font-size: 1.1em;
+    }
+
+    /* Introdução Home */
+
+    .intro_home{
+        background: url('../img/Bg-introdução-mobile.jpg') center no-repeat;
+        background-size: cover;
+    }
+
+    .intro_home .container>div:nth-child(2){
+        height: 100%;
+        top: 30px;
+    }
+
+    .reversa{
+        flex-direction: column-reverse;
+    }
+
+    /* Quem sou home */
+
+    .linhas{
+        display: none;
+    }
+
+    /* Produtos Home */
+
+    .primeiraC{
+        width: 528px;
+    }
+
+    .segundaC{
+        width: 240px;
+    }
+
+    /* Post recentes */
+
+
+
+    .ultimos{
+        display: none;
+    }
+}

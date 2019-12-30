@@ -94,11 +94,12 @@ header{
 .menu_navegacao ul{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .menu_navegacao ul li{
+    margin-left: 20px;
     color: black;
     font-family: 'Righteous', cursive;
     font-size: 1em;
@@ -167,6 +168,7 @@ header{
 
 .informacao{
     height: 280px;
+    padding: 0 10px;
     background-color: rgba(190, 223, 238, 0.5);
     display: flex;
     flex-direction: column;
@@ -176,6 +178,7 @@ header{
 
 .informacao_central{
     height: 100%;
+    padding: 0 10px;
     background-color: rgba(190, 223, 238, 0.5);
     display: flex;
     flex-direction: column;
@@ -184,14 +187,12 @@ header{
 }
 
 .texto_info{
-    width: 230px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 10px;
 }
 
 .texto_info_central{
-    width: 230px;
-    height: 240px;
+    min-height: 240px;
     margin-top: 10px;
 }
 
@@ -368,6 +369,7 @@ footer{
 }
 
 footer .container{
+    padding-right: 10px;
     height: 200px;
 }
 
