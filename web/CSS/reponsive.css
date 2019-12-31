@@ -18,6 +18,13 @@
         font-size: 1.1em;
     }
 
+    .btn{
+        width: 180px;
+        height: 40px;
+        padding-top: 8.5px;
+        background-size: 100%;
+    }
+
     /* Introdução Home */
 
     .intro_home{
@@ -52,9 +59,13 @@
 
     /* Post recentes */
 
-
-
     .ultimos{
         display: none;
+    }
+
+    /* Produtos */
+
+    .produto_pedido label{
+        font-size: 1em;
     }
 }
