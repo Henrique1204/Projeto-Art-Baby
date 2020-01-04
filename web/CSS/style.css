@@ -91,6 +91,12 @@ header{
     top: 0;
 }
 
+header .container>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .menu_navegacao ul{
     width: 100%;
     display: flex;
@@ -147,17 +153,17 @@ header{
 
 .quem_sou{
     max-width: 100vw;
-    height: 1020px;
+    min-height: 1020px;
 }
 
 .quem_sou>.container{
-    height: 900px;
+    min-height: 900px;
     flex-direction: column;
 }
 
 .quem_sou .infos{
     margin-top: 7px;
-    height: 370px;
+    min-height: 370px;
     align-items: flex-end;
 }
 
@@ -177,7 +183,7 @@ header{
 }
 
 .informacao_central{
-    height: 100%;
+    height: 370px;
     padding: 0 10px;
     background-color: rgba(190, 223, 238, 0.5);
     display: flex;
@@ -200,18 +206,18 @@ header{
 
 .produtos_home{
     max-width: 100vw;
-    height: 1150px;
+    min-height: 1150px;
     font-size: 1.2em;
     background-color: rgba(190, 223, 238, 0.5);
 }
 
 .produtos_home>.container{
-    height: 1030px;
+    min-height: 1030px;
     flex-direction: column;
 }
 
 .coluna{
-    height: 720px;
+    min-height: 720px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -282,12 +288,12 @@ header{
 
 .posts_recentes{
     max-width: 100vw;
-    height: 830px;
+    min-height: 830px;
     flex-direction: column;
 }
 
 .posts_recentes>.container{
-    height: 710px;
+    min-height: 710px;
     flex-direction: column;
 }
 
@@ -370,11 +376,11 @@ footer{
 
 footer .container{
     padding-right: 10px;
-    height: 200px;
+    min-height: 200px;
 }
 
 footer .container>div{
-    height: 100%;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -388,6 +394,10 @@ footer h3{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 1px;
+}
+
+footer a{
+    text-align: center;
 }
 
 footer li{
