@@ -18,6 +18,7 @@
     <!-- Scripts-->
     <script>document.documentElement.classList.add('js')</script>
     <script src="JS/simple-slide.js" defer></script>
+    <script src="JS/simple-form.js" defer></script>
     <script src="JS/script.js" defer></script>
     <script src="JS/funcoes.js" defer></script>
     <link rel="shortcut icon" href="img/favicon.png">
@@ -163,7 +164,7 @@
                 <h2 class="titulo">Materiais</h2>
             </div>
             <div data-slide="materiais">
-                <div class="container materias">
+                <odiv class="container materias">
                     <div class="material grid-4">
                         <img src="img/material.jpg" alt="tinta pvc vermelha">
                         <h3>Nome material</h3>
@@ -196,12 +197,12 @@
                         <img src="img/material.jpg" alt="tinta pvc vermelha">
                         <h3>Nome material</h3>
                     </div>
-                </div>
+                </odiv>
             </div>
         </section>
         <section class="pedido">
             <h2 class="titulo" >Fazer pedido</h2>
-            <form class="container alinhar_centro">
+            <form method="post" action="./enviar.php" class="container alinhar_centro form_php">
                 <div class="grid-8 dados_pedidos">
                     <div>
                         <label for="nome">Nome</label>
@@ -221,11 +222,11 @@
                         <img src="img/Ícones/sacola.svg" alt="sacola de compra" id="icone_produto_pedido">
                     </div>
                     <div>
-                        <label for="bebe" class="texto_direita">Bebê reborn <input type="checkbox" name="produto" id="bebe"></label>
-                        <label for="arte"><input type="checkbox" name="produto" id="arte"> Artesanato</label>
+                        <label for="bebe" class="texto_direita">Bebê reborn <input type="checkbox" name="produto" id="bebe" value="bebe"></label>
+                        <label for="arte"><input type="checkbox" name="produto" id="arte" value="arte"> Artesanato</label>
                     </div>
                 </div>
-                <button type="submit" class="btn">Fazer pedido</button>
+                <button type="submit" class="btn" id="enviar">Fazer pedido</button>
             </form>
         </section>
         <footer>

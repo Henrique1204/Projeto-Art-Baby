@@ -12,6 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Scripts -->
+    <script>document.documentElement.classList.add('js')</script>
+    <script src="JS/simple-slide.js" defer></script>
+    <script src="JS/simple-form.js" defer></script>
+    <script src="JS/script.js" defer></script>
+    <script src="JS/funcoes.js" defer></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
@@ -73,7 +79,7 @@
     <section class="enviar_mensagem alinhar_centro">
         <div class="container">
             <h2 class="titulo">Enviar mensagem</h2>
-            <form class="grid-8">
+            <form method="post" action="./enviar.php" class="grid-8 form_php">
                 <div>
                     <label for="nome">Nome</label>
                     <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
@@ -88,9 +94,9 @@
                 </div>
                 <div>
                     <label for="msg">Mensagem</label>
-                    <textarea name="msg" id="msg"></textarea>
+                    <textarea name="msg" id="msg" required></textarea>
                 </div>
-                <button type="submit" class="btn rosa">Enviar</button>
+                <button type="submit" class="btn rosa" id="enviar">Enviar</button>
             </form>
         </div>
     </section>
